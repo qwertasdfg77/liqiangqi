@@ -6,13 +6,13 @@
 
 **唯一正式稳定版：1.8.0。** 在九乘九棋盘上走棋、放墙，与本地电脑玩家对弈。界面中文，可选择先后手及电脑位于棋盘上方或下方。
 
-**最推荐：** 从 [正式 Release](https://github.com/qwertasdfg77/liqiangqi/releases/tag/v1.8.0) 下载 `力墙棋.exe`，双击即可玩。游戏与运行环境均包含在一个文件中，运行时不需要联网或安装 Node.js、Python、模型及 GPU 工具。可以把 EXE 单独复制到其他位置使用。
+**最推荐：** 从 [正式 Release](https://github.com/qwertasdfg77/liqiangqi/releases/tag/v1.8.0) 下载 `liqiangqi-v1.8.0-windows-x64.exe`，双击即可玩。游戏与运行环境均包含在一个文件中，运行时不需要联网或安装 Node.js、Python、模型及 GPU 工具。可以把 EXE 单独复制到其他位置使用。
 
 这是一份参照 [HullQin 原网站“路墙棋”](https://game.hullqin.cn/lqq) 两人玩法制作的独立本地实现，沿用本地产品名“力墙棋”。本仓库由 `qwertasdfg77` 维护，不是原网站作者的官方发布；不包含原网站下载的 JavaScript 包、美术、账号系统或联机服务。来源和许可范围见 [来源说明](docs/PROVENANCE.md)。
 
 ## 下载和使用
 
-1. 打开 [Releases](https://github.com/qwertasdfg77/liqiangqi/releases/latest)，下载 `力墙棋.exe`。
+1. 打开 [Releases](https://github.com/qwertasdfg77/liqiangqi/releases/latest)，下载 `liqiangqi-v1.8.0-windows-x64.exe`（中文标签“力墙棋.exe”）。
 2. 双击 EXE，默认浏览器自动打开本地游戏页面。
 3. 选择“走棋”“横墙”或“竖墙”，点击合法目标。你行动后电脑自动落子。
 4. “新的一局”选择先后手；“棋盘方位”可在对局中切换电脑上方/下方。
@@ -78,7 +78,7 @@ Release 提供 `SHA256SUMS.txt`。1.8.0 正式 EXE：
 ```
 
 ```powershell
-Get-FileHash -Algorithm SHA256 -LiteralPath .\力墙棋.exe
+Get-FileHash -Algorithm SHA256 -LiteralPath .\liqiangqi-v1.8.0-windows-x64.exe
 ```
 
 本项目自行编写的源码采用 MIT。随程序附带的 Node.js 及其组件适用各自许可，完整文本保存在 [Node-LICENSE.txt](third-party/Node-LICENSE.txt)，也嵌入 EXE 载荷。

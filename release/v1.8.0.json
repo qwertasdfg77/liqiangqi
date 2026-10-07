@@ -7,7 +7,8 @@
   "asset": {
     "name": "力墙棋.exe",
     "bytes": 34658304,
-    "sha256": "487027f161d9f9725fe3ec91af8d44b6c1df453239294c19d7fff751259f2a22"
+    "sha256": "487027f161d9f9725fe3ec91af8d44b6c1df453239294c19d7fff751259f2a22",
+    "downloadName": "liqiangqi-v1.8.0-windows-x64.exe"
   },
   "payloadId": "f41e83208055455bea48",
   "sourceFiles": [
