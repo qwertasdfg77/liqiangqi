@@ -1,0 +1,17 @@
+name: 功能、棋力或性能建议
+description: 提出改进方向及可复核的局面或测量
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: 要解决的问题
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 建议行为与评估方法
+      description: 棋力建议请提供具体局面，性能建议请说明硬件、档位、等待时间及缓存状态。
+    validations:
+      required: true

@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 使用和启动说明
+    url: https://github.com/qwertasdfg77/liqiangqi/blob/main/docs/USAGE.md
+    about: 先查看操作、启动问题及缓存说明。
+  - name: 私密安全报告
+    url: https://github.com/qwertasdfg77/liqiangqi/security/advisories/new
+    about: 安全问题不要公开利用细节。

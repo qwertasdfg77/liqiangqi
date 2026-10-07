@@ -1,0 +1,38 @@
+name: Stable source and portable verification
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: verify-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  verify:
+    runs-on: windows-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Official Node.js 24.18.1 x64
+        uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version: '24.18.1'
+          architecture: x64
+          package-manager-cache: false
+      - name: Full stable quality gate
+        run: node scripts/quality-gate.cjs
+      - name: Verify and prepare payload
+        run: node scripts/prepare-payload.cjs
+      - name: Compile Windows x64 portable launcher
+        run: powershell -NoProfile -ExecutionPolicy Bypass -File scripts/build-portable.ps1
+      - name: Independent portable launch and actual play
+        run: node tests/verify-portable.cjs

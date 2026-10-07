@@ -1,0 +1,35 @@
+name: 故障或规则问题
+description: 报告启动、界面、动作或胜负判定问题
+labels: [bug, needs-reproduction]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: 版本与来源
+      placeholder: 1.8.0，正式 Release EXE 或源码运行
+    validations:
+      required: true
+  - type: input
+    id: platform
+    attributes:
+      label: 系统、CPU 与浏览器
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: 复现步骤与局面
+      description: 附先后手、20/30 秒档、行动顺序、棋子和墙的位置。
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: 预期与实际结果
+    validations:
+      required: true
+  - type: textarea
+    id: log
+    attributes:
+      label: 错误文字或日志片段
+      description: 公开提交前删除个人用户名、目录和敏感信息。

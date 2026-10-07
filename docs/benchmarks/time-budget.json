@@ -1,0 +1,153 @@
+{
+  "date": "2026-10-05",
+  "engine": "1.7 frozen engine used to select 1.8 budgets",
+  "protocol": "Same frozen desktop 1.7 engine on both sides, 8 workers; adaptive 20s versus 30s hard caps; 4 fresh predeclared starts, swapped sides; both sides have >=4 geometric steps remaining and no immediate pawn win; pondering off; no forfeits or manufactured draws.",
+  "counts": {
+    "20s-win": 4,
+    "30s-win": 3,
+    "shared": 1,
+    "limit": 0,
+    "error": 0
+  },
+  "time": {
+    "twenty": {
+      "decisions": 185,
+      "meanSeconds": 9.042430305405407,
+      "medianSeconds": 4.1143731000000265,
+      "maximumSeconds": 20.05886540000001,
+      "totalSeconds": 1672.8496065000002,
+      "nearLimitMoves": 62,
+      "overrunBeyondHalfSecond": 0,
+      "searchMoves": 178,
+      "meanSearchDepth": 9.314606741573034,
+      "maximumSearchDepth": 32,
+      "reasons": {
+        "stable-choice": 80,
+        "time-limit": 62,
+        "proven-win": 19,
+        "immediate-win": 4,
+        "proven-result": 14,
+        "final-reply": 2,
+        "exact-endgame": 1,
+        "depth-limit": 3
+      }
+    },
+    "thirty": {
+      "decisions": 185,
+      "meanSeconds": 11.195769143243233,
+      "medianSeconds": 4.1084537999997846,
+      "maximumSeconds": 30.038732200000013,
+      "totalSeconds": 2071.2172914999983,
+      "nearLimitMoves": 50,
+      "overrunBeyondHalfSecond": 0,
+      "searchMoves": 177,
+      "meanSearchDepth": 9.282485875706215,
+      "maximumSearchDepth": 32,
+      "reasons": {
+        "stable-choice": 89,
+        "time-limit": 50,
+        "proven-result": 21,
+        "final-reply": 3,
+        "proven-win": 15,
+        "immediate-win": 3,
+        "exact-endgame": 2,
+        "depth-limit": 2
+      }
+    },
+    "observedMeanReductionPercent": 19.23350517759995
+  },
+  "games": [
+    {
+      "gameId": 1,
+      "opening": 0,
+      "twentySide": "下方",
+      "outcome": "20s-win",
+      "presetPlies": 0,
+      "plies": 58,
+      "decisions": 58
+    },
+    {
+      "gameId": 2,
+      "opening": 0,
+      "twentySide": "上方",
+      "outcome": "20s-win",
+      "presetPlies": 0,
+      "plies": 46,
+      "decisions": 46
+    },
+    {
+      "gameId": 3,
+      "opening": 1,
+      "twentySide": "下方",
+      "outcome": "30s-win",
+      "presetPlies": 8,
+      "plies": 48,
+      "decisions": 40
+    },
+    {
+      "gameId": 4,
+      "opening": 1,
+      "twentySide": "上方",
+      "outcome": "30s-win",
+      "presetPlies": 8,
+      "plies": 56,
+      "decisions": 48
+    },
+    {
+      "gameId": 5,
+      "opening": 2,
+      "twentySide": "下方",
+      "outcome": "20s-win",
+      "presetPlies": 12,
+      "plies": 50,
+      "decisions": 38
+    },
+    {
+      "gameId": 6,
+      "opening": 2,
+      "twentySide": "上方",
+      "outcome": "20s-win",
+      "presetPlies": 12,
+      "plies": 78,
+      "decisions": 66
+    },
+    {
+      "gameId": 7,
+      "opening": 3,
+      "twentySide": "下方",
+      "outcome": "shared",
+      "presetPlies": 16,
+      "plies": 52,
+      "decisions": 36
+    },
+    {
+      "gameId": 8,
+      "opening": 3,
+      "twentySide": "上方",
+      "outcome": "30s-win",
+      "presetPlies": 16,
+      "plies": 54,
+      "decisions": 38
+    }
+  ],
+  "verification": {
+    "passed": true,
+    "completedGames": 8,
+    "checkedMoves": 370,
+    "checkedPresetMoves": 72,
+    "independentOriginalRuleReplay": true,
+    "sameEngineHashes": true,
+    "desktopUnchanged": true,
+    "noImmediateWinningStarts": true,
+    "noPonder": true,
+    "noWorkerFallback": true,
+    "noManufacturedDraws": true
+  },
+  "limitations": [
+    "Four paired starts are too few to establish equal strength or a small Elo difference.",
+    "Adaptive early stopping was enabled; budgets are maximum limits, not mandatory thinking time.",
+    "Pondering was disabled equally, so this comparison isolates foreground search time.",
+    "Average time and depth compare different game trajectories and are not equal-position speed measurements.",
+    "The process was interrupted during game 5; games 1-4 were retained and incomplete game 5 was restarted from the frozen opening. Different run times may introduce machine-load variation."
+  ]
+}

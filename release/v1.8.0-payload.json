@@ -1,0 +1,97 @@
+{
+  "id": "f41e83208055455bea48",
+  "runtime": "v24.18.1",
+  "officialRuntimeSha256": "ac51903c4c111815d52280b1fdcc8da067cbb37e2fe1a765097b85c3292c8582",
+  "files": [
+    {
+      "path": "使用说明.txt",
+      "size": 5337,
+      "sha256": "c5f4ef724f94be8faeeea88572cc6747bf1ddb6334fcfc78d008786ab07de633"
+    },
+    {
+      "path": "app/ai-worker.cjs",
+      "size": 3447,
+      "sha256": "57106d32aeb2bb285d9ef205b9cdf730db4c9bf3ad96bc49e9f37a64a19970e4"
+    },
+    {
+      "path": "app/ai.cjs",
+      "size": 19368,
+      "sha256": "18ca8772f039603958f7148d336b109a90b2e0629e4e6b2fe0d9fc6a50b3693a"
+    },
+    {
+      "path": "app/app.js",
+      "size": 16480,
+      "sha256": "25928488f2fb9d1f4ced62892ca13b39627efa67cfd08f450cb4394a8436fd33"
+    },
+    {
+      "path": "app/difficulty.cjs",
+      "size": 403,
+      "sha256": "549034acf100d6ebae0f8cd6ac9d549ca31f640c8ffa0285f7eac9f38b801538"
+    },
+    {
+      "path": "app/engine.cjs",
+      "size": 23194,
+      "sha256": "ef2f7d5cdd75dd407658e21ff7c6d4a4417d675df1037e67abf0e7046a04b4c7"
+    },
+    {
+      "path": "app/exact-worker.cjs",
+      "size": 769,
+      "sha256": "426aaa88d6b700662314a4f37659d55c0a5fdb2455fbadd1447c9c5091406c07"
+    },
+    {
+      "path": "app/fixed-wall-oracle.cjs",
+      "size": 4941,
+      "sha256": "fa403edfaac28a85c71fd1f2db3f2eeec4a0a592239a7d7b25c712924f45069e"
+    },
+    {
+      "path": "app/game.cjs",
+      "size": 3209,
+      "sha256": "d5c75b907cd1387922bb4e1482f248a591d854c93c593bb26ba435b111cfc62f"
+    },
+    {
+      "path": "app/index.html",
+      "size": 6180,
+      "sha256": "168f7252ab2732964b5bea037b361944ffd6c6674626cb1d72db8d97b956cbd5"
+    },
+    {
+      "path": "app/ponder.cjs",
+      "size": 10115,
+      "sha256": "b60c23ac59e49f5df92760823c2f5f3ea9f474d0882b9aa53b5a6fe6a9c3364a"
+    },
+    {
+      "path": "app/server.cjs",
+      "size": 11343,
+      "sha256": "70e852995d0f77f70ceef39bb924c116e02f07f4ae6c9ef03b242cad844dd309"
+    },
+    {
+      "path": "app/strategy.cjs",
+      "size": 7239,
+      "sha256": "d3ea67f5c8bf3e1a6b49faedbf2a4e431da4fb74d73eb4ffc06932939562057e"
+    },
+    {
+      "path": "app/style.css",
+      "size": 9874,
+      "sha256": "092b0cb59e27864aa5950d2b1347a45ec34e33b88fc9ac31ca5d2f4fda573126"
+    },
+    {
+      "path": "app/time-control.cjs",
+      "size": 1448,
+      "sha256": "fd3000ca6cb70935fa4652912397df57aa03c5e284c9845379e739ba91480a59"
+    },
+    {
+      "path": "app/winrate.cjs",
+      "size": 2173,
+      "sha256": "a9f285d16dead36b924af50202dca973a4c8f860f5c17ac79d80d8fb75e5a86a"
+    },
+    {
+      "path": "runtime/LICENSE.txt",
+      "size": 157606,
+      "sha256": "148eacf7863ef4329224a29398623077200a27194aa075569faf4a0a85566ca5"
+    },
+    {
+      "path": "runtime/node.exe",
+      "size": 92540232,
+      "sha256": "ac51903c4c111815d52280b1fdcc8da067cbb37e2fe1a765097b85c3292c8582"
+    }
+  ]
+}

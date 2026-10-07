@@ -1,0 +1,18 @@
+[
+  {"name":"bug","color":"d73a4a","description":"程序故障或错误行为"},
+  {"name":"enhancement","color":"a2eeef","description":"功能或体验改进"},
+  {"name":"documentation","color":"0075ca","description":"说明、许可及开发文档"},
+  {"name":"ai","color":"7057ff","description":"搜索、评估和电脑棋力"},
+  {"name":"performance","color":"fbca04","description":"推演时间、缓存和线程效率"},
+  {"name":"rules","color":"0e8a16","description":"合法行动和胜负判定"},
+  {"name":"portable","color":"1d76db","description":"Windows 便携启动及包校验"},
+  {"name":"tests","color":"bfdadc","description":"回归、CI 和对局验证"},
+  {"name":"security","color":"b60205","description":"不含敏感细节的安全维护"},
+  {"name":"needs-reproduction","color":"d4c5f9","description":"等待复现步骤或局面"},
+  {"name":"question","color":"d876e3","description":"使用和实现问题"},
+  {"name":"good first issue","color":"7057ff","description":"适合首次贡献的明确任务"},
+  {"name":"help wanted","color":"008672","description":"欢迎协助"},
+  {"name":"duplicate","color":"cfd3d7","description":"重复问题"},
+  {"name":"invalid","color":"e4e669","description":"信息不适用或无法成立"},
+  {"name":"wontfix","color":"ffffff","description":"当前不计划处理"}
+]

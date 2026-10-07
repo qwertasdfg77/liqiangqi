@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>力墙棋 · 最高难度人机对弈</title>
+  <link rel="stylesheet" href="/style.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <header class="header">
+    <div class="brand"><span class="brand-mark" aria-hidden="true">井</span><div><h1>力墙棋</h1><p>一步走棋，一墙布局。</p></div></div>
+    <div class="difficulty"><span class="difficulty-dot"></span><strong id="difficulty-label">最高难度</strong><small id="difficulty-time">智能用时 · 上限 30 秒</small></div>
+  </header>
+  <main class="layout">
+    <section class="board-card" aria-label="对弈棋盘">
+      <div class="board-heading"><span id="upper-goal">↑ 你的终点</span><span class="round" id="move-count">第 1 手</span></div>
+      <svg id="board" viewBox="0 0 668 668" role="group" aria-label="九乘九棋盘"></svg>
+      <div class="lower-goal" id="lower-goal">↓ 电脑的终点</div>
+      <div class="tools" role="group" aria-label="选择操作">
+        <button class="tool active" data-mode="move" aria-pressed="true"><span>●</span>走棋</button>
+        <button class="tool" data-mode="horizontal" aria-pressed="false"><span>━</span>横墙</button>
+        <button class="tool" data-mode="vertical" aria-pressed="false"><span>┃</span>竖墙</button>
+      </div>
+      <p class="board-help" id="board-help">点击发光的格子走棋。</p>
+    </section>
+    <aside class="sidebar">
+      <section class="status-card">
+        <div class="eyebrow">当前对局 <span id="connection">本地运行</span></div>
+        <h2 id="status" aria-live="polite">正在连接游戏…</h2>
+        <p id="status-detail">载入棋盘后即可开始。</p>
+        <div id="thinking" class="thinking" hidden><progress id="think-progress" max="30000" value="0"></progress><span id="think-clock"></span></div>
+        <button id="retry" class="secondary" hidden>重试电脑落子</button>
+        <div class="player-row"><span class="player-dot human"></span><div><strong id="human-name">你 · 先手</strong><small id="human-direction">向上方终点前进</small></div><div class="stock"><strong id="human-walls">10</strong><small>堵墙</small></div></div>
+        <div class="player-row"><span class="player-dot computer"></span><div><strong id="computer-name">电脑 · 后手</strong><small id="computer-direction">向下方终点前进</small></div><div class="stock"><strong id="computer-walls">10</strong><small>堵墙</small></div></div>
+        <div class="winrate-panel" aria-label="实时估算胜率">
+          <div class="winrate-heading"><span>实时估算胜率</span><span id="winrate-state">局面初评</span></div>
+          <div class="winrate-values"><span>你 <strong id="human-winrate">—</strong></span><span>电脑 <strong id="computer-winrate">—</strong></span></div>
+          <progress id="winrate-bar" max="100" value="50" aria-label="你的估算胜率"></progress>
+          <p id="winrate-detail">连接后显示 AI 估算。</p>
+        </div>
+        <div id="ponder-panel" class="ponder-panel" hidden>
+          <div class="ponder-heading"><span>电脑提前推演</span><span id="ponder-state">进行中</span></div>
+          <p id="ponder-detail"></p>
+        </div>
+      </section>
+      <section class="difficulty-card">
+        <div class="eyebrow">电脑难度</div>
+        <div class="sides difficulty-options" role="group" aria-label="选择电脑难度">
+          <button data-difficulty="quick" aria-pressed="false"><strong>快速档</strong><small>最多 20 秒</small></button>
+          <button data-difficulty="highest" class="selected" aria-pressed="true"><strong>最高难度</strong><small>最多 30 秒</small></button>
+        </div>
+        <p class="small-note">稳定后提前落子。切换立即生效，当前对局继续。</p>
+      </section>
+      <section class="orientation-card">
+        <div class="eyebrow">棋盘方位</div>
+        <div class="sides" role="group" aria-label="选择电脑方位"><button data-computer-side="top" class="selected" aria-pressed="true">电脑在上方</button><button data-computer-side="bottom" aria-pressed="false">电脑在下方</button></div>
+        <p class="small-note">随时切换，当前对局继续。</p>
+      </section>
+      <section class="control-card">
+        <div class="eyebrow">新的一局</div>
+        <div class="sides" role="group" aria-label="选择新局先后手"><button data-side="0" class="selected" aria-pressed="true">我先手</button><button data-side="1" aria-pressed="false">电脑先手</button></div>
+        <button id="new-game" class="primary">重新开局 <span>↗</span></button>
+        <button id="undo" class="secondary" disabled>悔棋 · 撤回这一轮</button>
+        <p class="small-note">悔棋与重开会取消电脑当前的思考。</p>
+      </section>
+      <section class="history-card"><div class="eyebrow">走法记录 <span id="history-count">0 手</span></div><ol id="history"><li class="empty-history">棋盘准备好了，等你落子。</li></ol></section>
+      <details class="rules"><summary>怎么玩</summary><p>你与电脑各有 10 堵墙，每步走棋或放一堵墙。不能封死任意一方到终点的所有通路，墙不能交叉或重叠。</p><p>相邻时可以跳过对方；直跳被挡住时可以侧跳。先手到达后，后手仍有最后一步，同一轮到达则共同获胜。</p><p>快速档每步最多思考 20 秒，最高难度每步最多 30 秒，走法稳定后都会提前落子。切换档位时，电脑按新上限重新思考当前这一步。双方用完墙后精确求解残局。</p><p>实时胜率把局面分数换算为百分比，随落子和已完成的搜索层数更新，未经实战统计校准。共同获胜时双方都显示 100%；没有单方必胜的精确残局不虚构胜率。</p></details>
+    </aside>
+  </main>
+  <div id="toast" class="toast" role="status" hidden></div>
+  <footer>本地人机对弈 · 快速 / 最高难度 · 1.8.0</footer>
+</body>
+</html>

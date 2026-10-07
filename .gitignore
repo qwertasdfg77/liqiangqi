@@ -1,0 +1,10 @@
+/build/
+/reports/
+/dist/
+/node_modules/
+*.partial
+*.log
+.env
+.env.*
+Thumbs.db
+.DS_Store

@@ -1,0 +1,317 @@
+[
+  {
+    "player": 0,
+    "action": 67,
+    "text": "走到 E2"
+  },
+  {
+    "player": 1,
+    "action": 13,
+    "text": "走到 E8"
+  },
+  {
+    "player": 0,
+    "action": 58,
+    "text": "走到 E3"
+  },
+  {
+    "player": 1,
+    "action": 22,
+    "text": "走到 E7"
+  },
+  {
+    "player": 0,
+    "action": 49,
+    "text": "走到 E4"
+  },
+  {
+    "player": 1,
+    "action": 31,
+    "text": "走到 E6"
+  },
+  {
+    "player": 0,
+    "action": 124,
+    "text": "横墙 D4"
+  },
+  {
+    "player": 1,
+    "action": 172,
+    "text": "竖墙 D6"
+  },
+  {
+    "player": 0,
+    "action": 126,
+    "text": "横墙 F4"
+  },
+  {
+    "player": 1,
+    "action": 186,
+    "text": "竖墙 B4"
+  },
+  {
+    "player": 0,
+    "action": 128,
+    "text": "横墙 H4"
+  },
+  {
+    "player": 1,
+    "action": 101,
+    "text": "横墙 E7"
+  },
+  {
+    "player": 0,
+    "action": 179,
+    "text": "竖墙 C5"
+  },
+  {
+    "player": 1,
+    "action": 117,
+    "text": "横墙 E5"
+  },
+  {
+    "player": 0,
+    "action": 106,
+    "text": "横墙 B6"
+  },
+  {
+    "player": 1,
+    "action": 32,
+    "text": "走到 F6"
+  },
+  {
+    "player": 0,
+    "action": 163,
+    "text": "竖墙 C7"
+  },
+  {
+    "player": 1,
+    "action": 83,
+    "text": "横墙 C9"
+  },
+  {
+    "player": 0,
+    "action": 103,
+    "text": "横墙 G7"
+  },
+  {
+    "player": 1,
+    "action": 85,
+    "text": "横墙 E9"
+  },
+  {
+    "player": 0,
+    "action": 129,
+    "text": "横墙 A3"
+  },
+  {
+    "player": 1,
+    "action": 33,
+    "text": "走到 G6"
+  },
+  {
+    "player": 0,
+    "action": 177,
+    "text": "竖墙 A5"
+  },
+  {
+    "player": 1,
+    "action": 87,
+    "text": "横墙 G9"
+  },
+  {
+    "player": 0,
+    "action": 48,
+    "text": "走到 D4"
+  },
+  {
+    "player": 1,
+    "action": 34,
+    "text": "走到 H6"
+  },
+  {
+    "player": 0,
+    "action": 39,
+    "text": "走到 D5"
+  },
+  {
+    "player": 1,
+    "action": 35,
+    "text": "走到 I6"
+  },
+  {
+    "player": 0,
+    "action": 30,
+    "text": "走到 D6"
+  },
+  {
+    "player": 1,
+    "action": 26,
+    "text": "走到 I7"
+  },
+  {
+    "player": 0,
+    "action": 39,
+    "text": "走到 D5"
+  },
+  {
+    "player": 1,
+    "action": 25,
+    "text": "走到 H7"
+  },
+  {
+    "player": 0,
+    "action": 159,
+    "text": "竖墙 G8"
+  },
+  {
+    "player": 1,
+    "action": 16,
+    "text": "走到 H8"
+  },
+  {
+    "player": 0,
+    "action": 30,
+    "text": "走到 D6"
+  },
+  {
+    "player": 1,
+    "action": 17,
+    "text": "走到 I8"
+  },
+  {
+    "player": 0,
+    "action": 39,
+    "text": "走到 D5"
+  },
+  {
+    "player": 1,
+    "action": 8,
+    "text": "走到 I9"
+  },
+  {
+    "player": 0,
+    "action": 30,
+    "text": "走到 D6"
+  },
+  {
+    "player": 1,
+    "action": 7,
+    "text": "走到 H9"
+  },
+  {
+    "player": 0,
+    "action": 39,
+    "text": "走到 D5"
+  },
+  {
+    "player": 1,
+    "action": 6,
+    "text": "走到 G9"
+  },
+  {
+    "player": 0,
+    "action": 30,
+    "text": "走到 D6"
+  },
+  {
+    "player": 1,
+    "action": 5,
+    "text": "走到 F9"
+  },
+  {
+    "player": 0,
+    "action": 39,
+    "text": "走到 D5"
+  },
+  {
+    "player": 1,
+    "action": 4,
+    "text": "走到 E9"
+  },
+  {
+    "player": 0,
+    "action": 30,
+    "text": "走到 D6"
+  },
+  {
+    "player": 1,
+    "action": 3,
+    "text": "走到 D9"
+  },
+  {
+    "player": 0,
+    "action": 39,
+    "text": "走到 D5"
+  },
+  {
+    "player": 1,
+    "action": 2,
+    "text": "走到 C9"
+  },
+  {
+    "player": 0,
+    "action": 30,
+    "text": "走到 D6"
+  },
+  {
+    "player": 1,
+    "action": 1,
+    "text": "走到 B9"
+  },
+  {
+    "player": 0,
+    "action": 39,
+    "text": "走到 D5"
+  },
+  {
+    "player": 1,
+    "action": 0,
+    "text": "走到 A9"
+  },
+  {
+    "player": 0,
+    "action": 48,
+    "text": "走到 D4"
+  },
+  {
+    "player": 1,
+    "action": 9,
+    "text": "走到 A8"
+  },
+  {
+    "player": 0,
+    "action": 39,
+    "text": "走到 D5"
+  },
+  {
+    "player": 1,
+    "action": 18,
+    "text": "走到 A7"
+  },
+  {
+    "player": 0,
+    "action": 48,
+    "text": "走到 D4"
+  },
+  {
+    "player": 1,
+    "action": 27,
+    "text": "走到 A6"
+  },
+  {
+    "player": 0,
+    "action": 39,
+    "text": "走到 D5"
+  },
+  {
+    "player": 1,
+    "action": 36,
+    "text": "走到 A5"
+  },
+  {
+    "player": 0,
+    "action": 48,
+    "text": "走到 D4"
+  }
+]

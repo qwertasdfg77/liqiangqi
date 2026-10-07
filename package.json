@@ -1,0 +1,16 @@
+{
+  "name": "liqiangqi",
+  "version": "1.8.0",
+  "private": true,
+  "description": "力墙棋本地人机对弈：Minimax / Alpha-Beta / PVS、双档位、动态预推演与 Windows 单文件便携版",
+  "license": "MIT",
+  "engines": {"node": "24.x"},
+  "scripts": {
+    "start": "node app/server.cjs --open",
+    "test": "node scripts/quality-gate.cjs",
+    "prepare:portable": "node scripts/prepare-payload.cjs",
+    "build:portable": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/build-portable.ps1",
+    "test:portable": "node tests/verify-portable.cjs"
+  },
+  "repository": {"type": "git", "url": "https://github.com/qwertasdfg77/liqiangqi.git"}
+}

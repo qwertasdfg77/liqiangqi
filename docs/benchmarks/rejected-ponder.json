@@ -1,0 +1,86 @@
+{
+  "completedAt": "2026-10-05T12:56:47.537Z",
+  "currentDesktopVersion": "1.8.0",
+  "desktopSha256": "487027f161d9f9725fe3ec91af8d44b6c1df453239294c19d7fff751259f2a22",
+  "candidatePublished": false,
+  "changedFiles": [
+    "ai-worker.cjs",
+    "ai.cjs",
+    "ponder.cjs",
+    "server.cjs"
+  ],
+  "cold": {
+    "pairedPositions": 12,
+    "meanWaitingSeconds": {
+      "baseline": 10.43279324166666,
+      "candidate": 10.722180766666671
+    },
+    "reductionPercent": -2.7738259380455155,
+    "meanDepth": {
+      "baseline": 7.083333333333333,
+      "candidate": 7.083333333333333
+    }
+  },
+  "warm": {
+    "pairedPositions": 12,
+    "meanWaitingSeconds": {
+      "baseline": 8.732785941666677,
+      "candidate": 11.058998849999996
+    },
+    "reductionPercent": -26.637695276993778,
+    "meanDepth": {
+      "baseline": 7.083333333333333,
+      "candidate": 7.083333333333333
+    }
+  },
+  "formal": {
+    "completedGames": 8,
+    "counts": {
+      "candidate-win": 2,
+      "baseline-win": 5,
+      "shared": 1,
+      "limit": 0,
+      "error": 0
+    },
+    "candidatePoints": 2.5,
+    "baselinePoints": 5.5,
+    "statistics": {
+      "baseline": {
+        "moves": 194,
+        "meanForegroundMilliseconds": 8654.134020618556,
+        "meanDepth": 9.891752577319588,
+        "ponderHits": 173,
+        "readyReplies": 90,
+        "meanPrecomputedDepth": 8.65979381443299
+      },
+      "candidate": {
+        "moves": 194,
+        "meanForegroundMilliseconds": 8039.664948453608,
+        "meanDepth": 9.896907216494846,
+        "ponderHits": 179,
+        "readyReplies": 95,
+        "meanPrecomputedDepth": 8.855670103092784
+      }
+    },
+    "passed": false
+  },
+  "acceptance": {
+    "coldPassed": true,
+    "warmPassed": false,
+    "strengthPassed": false,
+    "qualityPassed": true,
+    "qualified": false
+  },
+  "verification": {
+    "candidateChecks": 12,
+    "candidateSyntax": 13,
+    "projectChecks": 20,
+    "projectSyntax": 27,
+    "allMovesComparedWithOriginalRules": true
+  },
+  "limitations": [
+    "Eight games and twelve paired replay positions cannot establish general statistical superiority.",
+    "This experiment runs on one Windows computer; no new portable release was generated."
+  ],
+  "decision": "Reject this experimental release and retain stable 1.8."
+}

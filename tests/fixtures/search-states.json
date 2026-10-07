@@ -1,0 +1,3912 @@
+[
+  {
+    "name": "fresh-global-1",
+    "domain": "global",
+    "key": "67,3,0,7,9,32,0,16777216,20971520",
+    "setup": [
+      194,
+      13,
+      176,
+      83,
+      208,
+      4,
+      67,
+      5
+    ],
+    "state": {
+      "firstId": 0,
+      "round": 5,
+      "waitFor": 0,
+      "playerPos": [
+        {
+          "x": 4,
+          "y": 7
+        },
+        {
+          "x": 5,
+          "y": 0
+        }
+      ],
+      "leftWalls": [
+        7,
+        9
+      ],
+      "walls": [
+        {
+          "x": 1,
+          "y": 6,
+          "d": 1,
+          "p": 0
+        },
+        {
+          "x": 7,
+          "y": 3,
+          "d": 1,
+          "p": 0
+        },
+        {
+          "x": 2,
+          "y": 0,
+          "d": 0,
+          "p": 1
+        },
+        {
+          "x": 7,
+          "y": 7,
+          "d": 1,
+          "p": 0
+        }
+      ],
+      "lastOp": {
+        "playerId": 1,
+        "type": 1,
+        "lastPos": 4
+      },
+      "recordList": [
+        {
+          "playerId": 0,
+          "candidateId": 32,
+          "operation": {
+            "type": 2,
+            "x": 1,
+            "y": 6,
+            "d": 1
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 2,
+          "operation": {
+            "type": 1,
+            "x": 4,
+            "y": 1
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 118,
+          "operation": {
+            "type": 2,
+            "x": 7,
+            "y": 3,
+            "d": 1
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 32,
+          "operation": {
+            "type": 2,
+            "x": 2,
+            "y": 0,
+            "d": 0
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 118,
+          "operation": {
+            "type": 2,
+            "x": 7,
+            "y": 7,
+            "d": 1
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 2,
+          "operation": {
+            "type": 1,
+            "x": 4,
+            "y": 0
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 2,
+          "operation": {
+            "type": 1,
+            "x": 4,
+            "y": 7
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 1,
+          "operation": {
+            "type": 1,
+            "x": 5,
+            "y": 0
+          }
+        }
+      ],
+      "winnerId": [],
+      "winnerRound": [],
+      "isOver": false,
+      "winner": 0
+    },
+    "exactValue": null
+  },
+  {
+    "name": "fresh-global-2",
+    "domain": "global",
+    "key": "74,13,0,6,9,1048576,2097152,2097280,1073741824",
+    "setup": [
+      75,
+      101,
+      166,
+      5,
+      207,
+      6,
+      134,
+      15,
+      152,
+      14,
+      74,
+      13
+    ],
+    "state": {
+      "firstId": 0,
+      "round": 7,
+      "waitFor": 0,
+      "playerPos": [
+        {
+          "x": 2,
+          "y": 8
+        },
+        {
+          "x": 4,
+          "y": 1
+        }
+      ],
+      "leftWalls": [
+        6,
+        9
+      ],
+      "walls": [
+        {
+          "x": 4,
+          "y": 2,
+          "d": 0,
+          "p": 1
+        },
+        {
+          "x": 5,
+          "y": 2,
+          "d": 1,
+          "p": 0
+        },
+        {
+          "x": 6,
+          "y": 7,
+          "d": 1,
+          "p": 0
+        },
+        {
+          "x": 5,
+          "y": 6,
+          "d": 0,
+          "p": 0
+        },
+        {
+          "x": 7,
+          "y": 0,
+          "d": 1,
+          "p": 0
+        }
+      ],
+      "lastOp": {
+        "playerId": 1,
+        "type": 1,
+        "lastPos": 14
+      },
+      "recordList": [
+        {
+          "playerId": 0,
+          "candidateId": 0,
+          "operation": {
+            "type": 1,
+            "x": 3,
+            "y": 8
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 71,
+          "operation": {
+            "type": 2,
+            "x": 4,
+            "y": 2,
+            "d": 0
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 84,
+          "operation": {
+            "type": 2,
+            "x": 5,
+            "y": 2,
+            "d": 1
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 1,
+          "operation": {
+            "type": 1,
+            "x": 5,
+            "y": 0
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 107,
+          "operation": {
+            "type": 2,
+            "x": 6,
+            "y": 7,
+            "d": 1
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 1,
+          "operation": {
+            "type": 1,
+            "x": 6,
+            "y": 0
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 88,
+          "operation": {
+            "type": 2,
+            "x": 5,
+            "y": 6,
+            "d": 0
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 2,
+          "operation": {
+            "type": 1,
+            "x": 6,
+            "y": 1
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 102,
+          "operation": {
+            "type": 2,
+            "x": 7,
+            "y": 0,
+            "d": 1
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 0,
+          "operation": {
+            "type": 1,
+            "x": 5,
+            "y": 1
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 0,
+          "operation": {
+            "type": 1,
+            "x": 2,
+            "y": 8
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 0,
+          "operation": {
+            "type": 1,
+            "x": 4,
+            "y": 1
+          }
+        }
+      ],
+      "winnerId": [],
+      "winnerRound": [],
+      "isOver": false,
+      "winner": 0
+    },
+    "exactValue": null
+  },
+  {
+    "name": "fresh-global-3",
+    "domain": "global",
+    "key": "75,22,0,5,6,335626240,268435472,1026,512",
+    "setup": [
+      140,
+      13,
+      104,
+      4,
+      158,
+      13,
+      90,
+      110,
+      77,
+      191,
+      68,
+      116,
+      77,
+      151,
+      108,
+      22
+    ],
+    "state": {
+      "firstId": 0,
+      "round": 9,
+      "waitFor": 0,
+      "playerPos": [
+        {
+          "x": 5,
+          "y": 8
+        },
+        {
+          "x": 4,
+          "y": 2
+        }
+      ],
+      "leftWalls": [
+        5,
+        6
+      ],
+      "walls": [
+        {
+          "x": 3,
+          "y": 7,
+          "d": 0,
+          "p": 0
+        },
+        {
+          "x": 7,
+          "y": 2,
+          "d": 0,
+          "p": 0
+        },
+        {
+          "x": 5,
+          "y": 1,
+          "d": 1,
+          "p": 0
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "d": 0,
+          "p": 0
+        },
+        {
+          "x": 5,
+          "y": 3,
+          "d": 0,
+          "p": 1
+        },
+        {
+          "x": 6,
+          "y": 5,
+          "d": 1,
+          "p": 1
+        },
+        {
+          "x": 3,
+          "y": 4,
+          "d": 0,
+          "p": 1
+        },
+        {
+          "x": 6,
+          "y": 0,
+          "d": 1,
+          "p": 1
+        },
+        {
+          "x": 3,
+          "y": 3,
+          "d": 0,
+          "p": 0
+        }
+      ],
+      "lastOp": {
+        "playerId": 1,
+        "type": 1,
+        "lastPos": 13
+      },
+      "recordList": [
+        {
+          "playerId": 0,
+          "candidateId": 65,
+          "operation": {
+            "type": 2,
+            "x": 3,
+            "y": 7,
+            "d": 0
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 2,
+          "operation": {
+            "type": 1,
+            "x": 4,
+            "y": 1
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 114,
+          "operation": {
+            "type": 2,
+            "x": 7,
+            "y": 2,
+            "d": 0
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 2,
+          "operation": {
+            "type": 1,
+            "x": 4,
+            "y": 0
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 81,
+          "operation": {
+            "type": 2,
+            "x": 5,
+            "y": 1,
+            "d": 1
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 2,
+          "operation": {
+            "type": 1,
+            "x": 4,
+            "y": 1
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 20,
+          "operation": {
+            "type": 2,
+            "x": 1,
+            "y": 1,
+            "d": 0
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 78,
+          "operation": {
+            "type": 2,
+            "x": 5,
+            "y": 3,
+            "d": 0
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 1,
+          "operation": {
+            "type": 1,
+            "x": 5,
+            "y": 8
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 94,
+          "operation": {
+            "type": 2,
+            "x": 6,
+            "y": 5,
+            "d": 1
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 2,
+          "operation": {
+            "type": 1,
+            "x": 5,
+            "y": 7
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 55,
+          "operation": {
+            "type": 2,
+            "x": 3,
+            "y": 4,
+            "d": 0
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 3,
+          "operation": {
+            "type": 1,
+            "x": 5,
+            "y": 8
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 82,
+          "operation": {
+            "type": 2,
+            "x": 6,
+            "y": 0,
+            "d": 1
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 51,
+          "operation": {
+            "type": 2,
+            "x": 3,
+            "y": 3,
+            "d": 0
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 3,
+          "operation": {
+            "type": 1,
+            "x": 4,
+            "y": 2
+          }
+        }
+      ],
+      "winnerId": [],
+      "winnerRound": [],
+      "isOver": false,
+      "winner": 0
+    },
+    "exactValue": null
+  },
+  {
+    "name": "fresh-global-4",
+    "domain": "global",
+    "key": "58,12,0,6,6,8388608,640,524293,8388672",
+    "setup": [
+      77,
+      13,
+      145,
+      122,
+      120,
+      14,
+      76,
+      13,
+      67,
+      147,
+      76,
+      14,
+      200,
+      13,
+      183,
+      164,
+      67,
+      104,
+      58,
+      12
+    ],
+    "state": {
+      "firstId": 0,
+      "round": 11,
+      "waitFor": 0,
+      "playerPos": [
+        {
+          "x": 4,
+          "y": 6
+        },
+        {
+          "x": 3,
+          "y": 1
+        }
+      ],
+      "leftWalls": [
+        6,
+        6
+      ],
+      "walls": [
+        {
+          "x": 0,
+          "y": 0,
+          "d": 1,
+          "p": 0
+        },
+        {
+          "x": 1,
+          "y": 5,
+          "d": 0,
+          "p": 1
+        },
+        {
+          "x": 7,
+          "y": 4,
+          "d": 0,
+          "p": 0
+        },
+        {
+          "x": 2,
+          "y": 0,
+          "d": 1,
+          "p": 1
+        },
+        {
+          "x": 7,
+          "y": 6,
+          "d": 1,
+          "p": 0
+        },
+        {
+          "x": 6,
+          "y": 4,
+          "d": 1,
+          "p": 0
+        },
+        {
+          "x": 3,
+          "y": 2,
+          "d": 1,
+          "p": 1
+        },
+        {
+          "x": 7,
+          "y": 2,
+          "d": 0,
+          "p": 1
+        }
+      ],
+      "lastOp": {
+        "playerId": 1,
+        "type": 1,
+        "lastPos": 13
+      },
+      "recordList": [
+        {
+          "playerId": 0,
+          "candidateId": 1,
+          "operation": {
+            "type": 1,
+            "x": 5,
+            "y": 8
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 2,
+          "operation": {
+            "type": 1,
+            "x": 4,
+            "y": 1
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 4,
+          "operation": {
+            "type": 2,
+            "x": 0,
+            "y": 0,
+            "d": 1
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 27,
+          "operation": {
+            "type": 2,
+            "x": 1,
+            "y": 5,
+            "d": 0
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 116,
+          "operation": {
+            "type": 2,
+            "x": 7,
+            "y": 4,
+            "d": 0
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 1,
+          "operation": {
+            "type": 1,
+            "x": 5,
+            "y": 1
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 0,
+          "operation": {
+            "type": 1,
+            "x": 4,
+            "y": 8
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 0,
+          "operation": {
+            "type": 1,
+            "x": 4,
+            "y": 1
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 2,
+          "operation": {
+            "type": 1,
+            "x": 4,
+            "y": 7
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 31,
+          "operation": {
+            "type": 2,
+            "x": 2,
+            "y": 0,
+            "d": 1
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 3,
+          "operation": {
+            "type": 1,
+            "x": 4,
+            "y": 8
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 1,
+          "operation": {
+            "type": 1,
+            "x": 5,
+            "y": 1
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 115,
+          "operation": {
+            "type": 2,
+            "x": 7,
+            "y": 6,
+            "d": 1
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 0,
+          "operation": {
+            "type": 1,
+            "x": 4,
+            "y": 1
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 97,
+          "operation": {
+            "type": 2,
+            "x": 6,
+            "y": 4,
+            "d": 1
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 47,
+          "operation": {
+            "type": 2,
+            "x": 3,
+            "y": 2,
+            "d": 1
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 2,
+          "operation": {
+            "type": 1,
+            "x": 4,
+            "y": 7
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 102,
+          "operation": {
+            "type": 2,
+            "x": 7,
+            "y": 2,
+            "d": 0
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 2,
+          "operation": {
+            "type": 1,
+            "x": 4,
+            "y": 6
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 0,
+          "operation": {
+            "type": 1,
+            "x": 3,
+            "y": 1
+          }
+        }
+      ],
+      "winnerId": [],
+      "winnerRound": [],
+      "isOver": false,
+      "winner": 0
+    },
+    "exactValue": null
+  },
+  {
+    "name": "fresh-endgame-1",
+    "domain": "exact-endgame",
+    "key": "18,4,0,0,0,-2145255423,1073746048,5245568,-2141519855",
+    "setup": [
+      177,
+      194,
+      181,
+      98,
+      197,
+      112,
+      199,
+      152,
+      193,
+      165,
+      120,
+      196,
+      208,
+      81,
+      102,
+      156,
+      125,
+      167,
+      154,
+      143,
+      75,
+      3,
+      76,
+      4,
+      75,
+      3,
+      76,
+      12,
+      75,
+      3,
+      74,
+      12,
+      73,
+      11,
+      72,
+      12,
+      73,
+      21,
+      72,
+      12,
+      73,
+      3,
+      72,
+      2,
+      63,
+      11,
+      54,
+      12,
+      63,
+      21,
+      54,
+      12,
+      63,
+      21,
+      54,
+      20,
+      45,
+      11,
+      36,
+      2,
+      45,
+      1,
+      36,
+      2,
+      45,
+      11,
+      54,
+      2,
+      45,
+      1,
+      36,
+      2,
+      27,
+      1,
+      36,
+      2,
+      27,
+      1,
+      18,
+      0,
+      27,
+      1,
+      18,
+      0,
+      9,
+      1,
+      10,
+      2,
+      19,
+      3,
+      18,
+      12,
+      27,
+      3,
+      18,
+      4
+    ],
+    "state": {
+      "firstId": 0,
+      "round": 49,
+      "waitFor": 0,
+      "playerPos": [
+        {
+          "x": 0,
+          "y": 2
+        },
+        {
+          "x": 4,
+          "y": 0
+        }
+      ],
+      "leftWalls": [
+        0,
+        0
+      ],
+      "walls": [
+        {
+          "x": 0,
+          "y": 4,
+          "d": 1,
+          "p": 0
+        },
+        {
+          "x": 1,
+          "y": 6,
+          "d": 1,
+          "p": 1
+        },
+        {
+          "x": 4,
+          "y": 4,
+          "d": 1,
+          "p": 0
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "d": 0,
+          "p": 1
+        },
+        {
+          "x": 4,
+          "y": 6,
+          "d": 1,
+          "p": 0
+        },
+        {
+          "x": 7,
+          "y": 3,
+          "d": 0,
+          "p": 1
+        },
+        {
+          "x": 6,
+          "y": 6,
+          "d": 1,
+          "p": 0
+        },
+        {
+          "x": 7,
+          "y": 0,
+          "d": 1,
+          "p": 1
+        },
+        {
+          "x": 0,
+          "y": 6,
+          "d": 1,
+          "p": 0
+        },
+        {
+          "x": 4,
+          "y": 2,
+          "d": 1,
+          "p": 1
+        },
+        {
+          "x": 7,
+          "y": 4,
+          "d": 0,
+          "p": 0
+        },
+        {
+          "x": 3,
+          "y": 6,
+          "d": 1,
+          "p": 1
+        },
+        {
+          "x": 7,
+          "y": 7,
+          "d": 1,
+          "p": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "d": 0,
+          "p": 1
+        },
+        {
+          "x": 5,
+          "y": 2,
+          "d": 0,
+          "p": 0
+        },
+        {
+          "x": 3,
+          "y": 1,
+          "d": 1,
+          "p": 1
+        },
+        {
+          "x": 4,
+          "y": 5,
+          "d": 0,
+          "p": 0
+        },
+        {
+          "x": 6,
+          "y": 2,
+          "d": 1,
+          "p": 1
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "d": 1,
+          "p": 0
+        },
+        {
+          "x": 6,
+          "y": 7,
+          "d": 0,
+          "p": 1
+        }
+      ],
+      "lastOp": {
+        "playerId": 1,
+        "type": 1,
+        "lastPos": 3
+      },
+      "recordList": [
+        {
+          "playerId": 0,
+          "candidateId": 12,
+          "operation": {
+            "type": 2,
+            "x": 0,
+            "y": 4,
+            "d": 1
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 28,
+          "operation": {
+            "type": 2,
+            "x": 1,
+            "y": 6,
+            "d": 1
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 68,
+          "operation": {
+            "type": 2,
+            "x": 4,
+            "y": 4,
+            "d": 1
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 19,
+          "operation": {
+            "type": 2,
+            "x": 1,
+            "y": 2,
+            "d": 0
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 64,
+          "operation": {
+            "type": 2,
+            "x": 4,
+            "y": 6,
+            "d": 1
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 102,
+          "operation": {
+            "type": 2,
+            "x": 7,
+            "y": 3,
+            "d": 0
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 92,
+          "operation": {
+            "type": 2,
+            "x": 6,
+            "y": 6,
+            "d": 1
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 92,
+          "operation": {
+            "type": 2,
+            "x": 7,
+            "y": 0,
+            "d": 1
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 11,
+          "operation": {
+            "type": 2,
+            "x": 0,
+            "y": 6,
+            "d": 1
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 57,
+          "operation": {
+            "type": 2,
+            "x": 4,
+            "y": 2,
+            "d": 1
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 88,
+          "operation": {
+            "type": 2,
+            "x": 7,
+            "y": 4,
+            "d": 0
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 49,
+          "operation": {
+            "type": 2,
+            "x": 3,
+            "y": 6,
+            "d": 1
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 88,
+          "operation": {
+            "type": 2,
+            "x": 7,
+            "y": 7,
+            "d": 1
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 3,
+          "operation": {
+            "type": 2,
+            "x": 0,
+            "y": 0,
+            "d": 0
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 55,
+          "operation": {
+            "type": 2,
+            "x": 5,
+            "y": 2,
+            "d": 0
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 36,
+          "operation": {
+            "type": 2,
+            "x": 3,
+            "y": 1,
+            "d": 1
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 45,
+          "operation": {
+            "type": 2,
+            "x": 4,
+            "y": 5,
+            "d": 0
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 62,
+          "operation": {
+            "type": 2,
+            "x": 6,
+            "y": 2,
+            "d": 1
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 11,
+          "operation": {
+            "type": 2,
+            "x": 1,
+            "y": 1,
+            "d": 1
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 59,
+          "operation": {
+            "type": 2,
+            "x": 6,
+            "y": 7,
+            "d": 0
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 0,
+          "operation": {
+            "type": 1,
+            "x": 3,
+            "y": 8
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 0,
+          "operation": {
+            "type": 1,
+            "x": 3,
+            "y": 0
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 1,
+          "operation": {
+            "type": 1,
+            "x": 4,
+            "y": 8
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 1,
+          "operation": {
+            "type": 1,
+            "x": 4,
+            "y": 0
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 0,
+          "operation": {
+            "type": 1,
+            "x": 3,
+            "y": 8
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 0,
+          "operation": {
+            "type": 1,
+            "x": 3,
+            "y": 0
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 1,
+          "operation": {
+            "type": 1,
+            "x": 4,
+            "y": 8
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 2,
+          "operation": {
+            "type": 1,
+            "x": 3,
+            "y": 1
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 0,
+          "operation": {
+            "type": 1,
+            "x": 3,
+            "y": 8
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 1,
+          "operation": {
+            "type": 1,
+            "x": 3,
+            "y": 0
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 0,
+          "operation": {
+            "type": 1,
+            "x": 2,
+            "y": 8
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 2,
+          "operation": {
+            "type": 1,
+            "x": 3,
+            "y": 1
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 0,
+          "operation": {
+            "type": 1,
+            "x": 1,
+            "y": 8
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 0,
+          "operation": {
+            "type": 1,
+            "x": 2,
+            "y": 1
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 0,
+          "operation": {
+            "type": 1,
+            "x": 0,
+            "y": 8
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 0,
+          "operation": {
+            "type": 1,
+            "x": 3,
+            "y": 1
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 0,
+          "operation": {
+            "type": 1,
+            "x": 1,
+            "y": 8
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 2,
+          "operation": {
+            "type": 1,
+            "x": 3,
+            "y": 2
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 0,
+          "operation": {
+            "type": 1,
+            "x": 0,
+            "y": 8
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 1,
+          "operation": {
+            "type": 1,
+            "x": 3,
+            "y": 1
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 0,
+          "operation": {
+            "type": 1,
+            "x": 1,
+            "y": 8
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 1,
+          "operation": {
+            "type": 1,
+            "x": 3,
+            "y": 0
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 0,
+          "operation": {
+            "type": 1,
+            "x": 0,
+            "y": 8
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 0,
+          "operation": {
+            "type": 1,
+            "x": 2,
+            "y": 0
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 1,
+          "operation": {
+            "type": 1,
+            "x": 0,
+            "y": 7
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 2,
+          "operation": {
+            "type": 1,
+            "x": 2,
+            "y": 1
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 0,
+          "operation": {
+            "type": 1,
+            "x": 0,
+            "y": 6
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 0,
+          "operation": {
+            "type": 1,
+            "x": 3,
+            "y": 1
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 1,
+          "operation": {
+            "type": 1,
+            "x": 0,
+            "y": 7
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 2,
+          "operation": {
+            "type": 1,
+            "x": 3,
+            "y": 2
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 0,
+          "operation": {
+            "type": 1,
+            "x": 0,
+            "y": 6
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 1,
+          "operation": {
+            "type": 1,
+            "x": 3,
+            "y": 1
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 1,
+          "operation": {
+            "type": 1,
+            "x": 0,
+            "y": 7
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 2,
+          "operation": {
+            "type": 1,
+            "x": 3,
+            "y": 2
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 0,
+          "operation": {
+            "type": 1,
+            "x": 0,
+            "y": 6
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 0,
+          "operation": {
+            "type": 1,
+            "x": 2,
+            "y": 2
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 0,
+          "operation": {
+            "type": 1,
+            "x": 0,
+            "y": 5
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 1,
+          "operation": {
+            "type": 1,
+            "x": 2,
+            "y": 1
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 0,
+          "operation": {
+            "type": 1,
+            "x": 0,
+            "y": 4
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 1,
+          "operation": {
+            "type": 1,
+            "x": 2,
+            "y": 0
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 1,
+          "operation": {
+            "type": 1,
+            "x": 0,
+            "y": 5
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 0,
+          "operation": {
+            "type": 1,
+            "x": 1,
+            "y": 0
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 0,
+          "operation": {
+            "type": 1,
+            "x": 0,
+            "y": 4
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 1,
+          "operation": {
+            "type": 1,
+            "x": 2,
+            "y": 0
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 1,
+          "operation": {
+            "type": 1,
+            "x": 0,
+            "y": 5
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 2,
+          "operation": {
+            "type": 1,
+            "x": 2,
+            "y": 1
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 1,
+          "operation": {
+            "type": 1,
+            "x": 0,
+            "y": 6
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 1,
+          "operation": {
+            "type": 1,
+            "x": 2,
+            "y": 0
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 0,
+          "operation": {
+            "type": 1,
+            "x": 0,
+            "y": 5
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 0,
+          "operation": {
+            "type": 1,
+            "x": 1,
+            "y": 0
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 0,
+          "operation": {
+            "type": 1,
+            "x": 0,
+            "y": 4
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 1,
+          "operation": {
+            "type": 1,
+            "x": 2,
+            "y": 0
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 0,
+          "operation": {
+            "type": 1,
+            "x": 0,
+            "y": 3
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 0,
+          "operation": {
+            "type": 1,
+            "x": 1,
+            "y": 0
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 2,
+          "operation": {
+            "type": 1,
+            "x": 0,
+            "y": 4
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 1,
+          "operation": {
+            "type": 1,
+            "x": 2,
+            "y": 0
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 0,
+          "operation": {
+            "type": 1,
+            "x": 0,
+            "y": 3
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 0,
+          "operation": {
+            "type": 1,
+            "x": 1,
+            "y": 0
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 1,
+          "operation": {
+            "type": 1,
+            "x": 0,
+            "y": 2
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 0,
+          "operation": {
+            "type": 1,
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 2,
+          "operation": {
+            "type": 1,
+            "x": 0,
+            "y": 3
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 0,
+          "operation": {
+            "type": 1,
+            "x": 1,
+            "y": 0
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 1,
+          "operation": {
+            "type": 1,
+            "x": 0,
+            "y": 2
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 0,
+          "operation": {
+            "type": 1,
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 1,
+          "operation": {
+            "type": 1,
+            "x": 0,
+            "y": 1
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 0,
+          "operation": {
+            "type": 1,
+            "x": 1,
+            "y": 0
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 0,
+          "operation": {
+            "type": 1,
+            "x": 1,
+            "y": 1
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 1,
+          "operation": {
+            "type": 1,
+            "x": 2,
+            "y": 0
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 1,
+          "operation": {
+            "type": 1,
+            "x": 1,
+            "y": 2
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 1,
+          "operation": {
+            "type": 1,
+            "x": 3,
+            "y": 0
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 0,
+          "operation": {
+            "type": 1,
+            "x": 0,
+            "y": 2
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 2,
+          "operation": {
+            "type": 1,
+            "x": 3,
+            "y": 1
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 2,
+          "operation": {
+            "type": 1,
+            "x": 0,
+            "y": 3
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 1,
+          "operation": {
+            "type": 1,
+            "x": 3,
+            "y": 0
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 1,
+          "operation": {
+            "type": 1,
+            "x": 0,
+            "y": 2
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 1,
+          "operation": {
+            "type": 1,
+            "x": 4,
+            "y": 0
+          }
+        }
+      ],
+      "winnerId": [],
+      "winnerRound": [],
+      "isOver": false,
+      "winner": 0
+    },
+    "exactValue": 1,
+    "proofRank": 13,
+    "layout": "exact-layout-10"
+  },
+  {
+    "name": "fresh-endgame-2",
+    "domain": "exact-endgame",
+    "key": "58,4,0,0,0,-2145255423,1073746048,5245568,-2141519855",
+    "setup": [
+      177,
+      194,
+      181,
+      98,
+      197,
+      112,
+      199,
+      152,
+      193,
+      165,
+      120,
+      196,
+      208,
+      81,
+      102,
+      156,
+      125,
+      167,
+      154,
+      143,
+      67,
+      5,
+      58,
+      4
+    ],
+    "state": {
+      "firstId": 0,
+      "round": 13,
+      "waitFor": 0,
+      "playerPos": [
+        {
+          "x": 4,
+          "y": 6
+        },
+        {
+          "x": 4,
+          "y": 0
+        }
+      ],
+      "leftWalls": [
+        0,
+        0
+      ],
+      "walls": [
+        {
+          "x": 0,
+          "y": 4,
+          "d": 1,
+          "p": 0
+        },
+        {
+          "x": 1,
+          "y": 6,
+          "d": 1,
+          "p": 1
+        },
+        {
+          "x": 4,
+          "y": 4,
+          "d": 1,
+          "p": 0
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "d": 0,
+          "p": 1
+        },
+        {
+          "x": 4,
+          "y": 6,
+          "d": 1,
+          "p": 0
+        },
+        {
+          "x": 7,
+          "y": 3,
+          "d": 0,
+          "p": 1
+        },
+        {
+          "x": 6,
+          "y": 6,
+          "d": 1,
+          "p": 0
+        },
+        {
+          "x": 7,
+          "y": 0,
+          "d": 1,
+          "p": 1
+        },
+        {
+          "x": 0,
+          "y": 6,
+          "d": 1,
+          "p": 0
+        },
+        {
+          "x": 4,
+          "y": 2,
+          "d": 1,
+          "p": 1
+        },
+        {
+          "x": 7,
+          "y": 4,
+          "d": 0,
+          "p": 0
+        },
+        {
+          "x": 3,
+          "y": 6,
+          "d": 1,
+          "p": 1
+        },
+        {
+          "x": 7,
+          "y": 7,
+          "d": 1,
+          "p": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "d": 0,
+          "p": 1
+        },
+        {
+          "x": 5,
+          "y": 2,
+          "d": 0,
+          "p": 0
+        },
+        {
+          "x": 3,
+          "y": 1,
+          "d": 1,
+          "p": 1
+        },
+        {
+          "x": 4,
+          "y": 5,
+          "d": 0,
+          "p": 0
+        },
+        {
+          "x": 6,
+          "y": 2,
+          "d": 1,
+          "p": 1
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "d": 1,
+          "p": 0
+        },
+        {
+          "x": 6,
+          "y": 7,
+          "d": 0,
+          "p": 1
+        }
+      ],
+      "lastOp": {
+        "playerId": 1,
+        "type": 1,
+        "lastPos": 5
+      },
+      "recordList": [
+        {
+          "playerId": 0,
+          "candidateId": 12,
+          "operation": {
+            "type": 2,
+            "x": 0,
+            "y": 4,
+            "d": 1
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 28,
+          "operation": {
+            "type": 2,
+            "x": 1,
+            "y": 6,
+            "d": 1
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 68,
+          "operation": {
+            "type": 2,
+            "x": 4,
+            "y": 4,
+            "d": 1
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 19,
+          "operation": {
+            "type": 2,
+            "x": 1,
+            "y": 2,
+            "d": 0
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 64,
+          "operation": {
+            "type": 2,
+            "x": 4,
+            "y": 6,
+            "d": 1
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 102,
+          "operation": {
+            "type": 2,
+            "x": 7,
+            "y": 3,
+            "d": 0
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 92,
+          "operation": {
+            "type": 2,
+            "x": 6,
+            "y": 6,
+            "d": 1
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 92,
+          "operation": {
+            "type": 2,
+            "x": 7,
+            "y": 0,
+            "d": 1
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 11,
+          "operation": {
+            "type": 2,
+            "x": 0,
+            "y": 6,
+            "d": 1
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 57,
+          "operation": {
+            "type": 2,
+            "x": 4,
+            "y": 2,
+            "d": 1
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 88,
+          "operation": {
+            "type": 2,
+            "x": 7,
+            "y": 4,
+            "d": 0
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 49,
+          "operation": {
+            "type": 2,
+            "x": 3,
+            "y": 6,
+            "d": 1
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 88,
+          "operation": {
+            "type": 2,
+            "x": 7,
+            "y": 7,
+            "d": 1
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 3,
+          "operation": {
+            "type": 2,
+            "x": 0,
+            "y": 0,
+            "d": 0
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 55,
+          "operation": {
+            "type": 2,
+            "x": 5,
+            "y": 2,
+            "d": 0
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 36,
+          "operation": {
+            "type": 2,
+            "x": 3,
+            "y": 1,
+            "d": 1
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 45,
+          "operation": {
+            "type": 2,
+            "x": 4,
+            "y": 5,
+            "d": 0
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 62,
+          "operation": {
+            "type": 2,
+            "x": 6,
+            "y": 2,
+            "d": 1
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 11,
+          "operation": {
+            "type": 2,
+            "x": 1,
+            "y": 1,
+            "d": 1
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 59,
+          "operation": {
+            "type": 2,
+            "x": 6,
+            "y": 7,
+            "d": 0
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 2,
+          "operation": {
+            "type": 1,
+            "x": 4,
+            "y": 7
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 1,
+          "operation": {
+            "type": 1,
+            "x": 5,
+            "y": 0
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 0,
+          "operation": {
+            "type": 1,
+            "x": 4,
+            "y": 6
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 0,
+          "operation": {
+            "type": 1,
+            "x": 4,
+            "y": 0
+          }
+        }
+      ],
+      "winnerId": [],
+      "winnerRound": [],
+      "isOver": false,
+      "winner": 0
+    },
+    "exactValue": -1,
+    "proofRank": 18,
+    "layout": "exact-layout-10"
+  },
+  {
+    "name": "fresh-endgame-3",
+    "domain": "exact-endgame",
+    "key": "54,2,0,0,0,-1593737206,-2146958848,1049089,1342603528",
+    "setup": [
+      137,
+      198,
+      202,
+      85,
+      107,
+      89,
+      181,
+      192,
+      204,
+      159,
+      164,
+      133,
+      127,
+      185,
+      105,
+      199,
+      87,
+      112,
+      104,
+      152,
+      67,
+      3,
+      76,
+      2,
+      77,
+      3,
+      76,
+      2,
+      77,
+      3,
+      78,
+      4,
+      77,
+      3,
+      78,
+      4,
+      79,
+      5,
+      80,
+      4,
+      71,
+      5,
+      80,
+      6,
+      79,
+      5,
+      70,
+      4,
+      71,
+      5,
+      62,
+      4,
+      71,
+      5,
+      70,
+      6,
+      71,
+      7,
+      62,
+      6
+    ],
+    "state": {
+      "firstId": 0,
+      "round": 31,
+      "waitFor": 0,
+      "playerPos": [
+        {
+          "x": 8,
+          "y": 6
+        },
+        {
+          "x": 6,
+          "y": 0
+        }
+      ],
+      "leftWalls": [
+        0,
+        0
+      ],
+      "walls": [
+        {
+          "x": 0,
+          "y": 7,
+          "d": 0,
+          "p": 0
+        },
+        {
+          "x": 5,
+          "y": 6,
+          "d": 1,
+          "p": 1
+        },
+        {
+          "x": 1,
+          "y": 7,
+          "d": 1,
+          "p": 0
+        },
+        {
+          "x": 4,
+          "y": 0,
+          "d": 0,
+          "p": 1
+        },
+        {
+          "x": 2,
+          "y": 3,
+          "d": 0,
+          "p": 0
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "d": 0,
+          "p": 1
+        },
+        {
+          "x": 4,
+          "y": 4,
+          "d": 1,
+          "p": 0
+        },
+        {
+          "x": 7,
+          "y": 5,
+          "d": 1,
+          "p": 1
+        },
+        {
+          "x": 3,
+          "y": 7,
+          "d": 1,
+          "p": 0
+        },
+        {
+          "x": 6,
+          "y": 1,
+          "d": 1,
+          "p": 1
+        },
+        {
+          "x": 3,
+          "y": 2,
+          "d": 1,
+          "p": 0
+        },
+        {
+          "x": 4,
+          "y": 6,
+          "d": 0,
+          "p": 1
+        },
+        {
+          "x": 6,
+          "y": 5,
+          "d": 0,
+          "p": 0
+        },
+        {
+          "x": 0,
+          "y": 5,
+          "d": 1,
+          "p": 1
+        },
+        {
+          "x": 0,
+          "y": 3,
+          "d": 0,
+          "p": 0
+        },
+        {
+          "x": 6,
+          "y": 6,
+          "d": 1,
+          "p": 1
+        },
+        {
+          "x": 6,
+          "y": 0,
+          "d": 0,
+          "p": 0
+        },
+        {
+          "x": 7,
+          "y": 3,
+          "d": 0,
+          "p": 1
+        },
+        {
+          "x": 7,
+          "y": 2,
+          "d": 0,
+          "p": 0
+        },
+        {
+          "x": 7,
+          "y": 0,
+          "d": 1,
+          "p": 1
+        }
+      ],
+      "lastOp": {
+        "playerId": 1,
+        "type": 1,
+        "lastPos": 7
+      },
+      "recordList": [
+        {
+          "playerId": 0,
+          "candidateId": 17,
+          "operation": {
+            "type": 2,
+            "x": 0,
+            "y": 7,
+            "d": 0
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 93,
+          "operation": {
+            "type": 2,
+            "x": 5,
+            "y": 6,
+            "d": 1
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 31,
+          "operation": {
+            "type": 2,
+            "x": 1,
+            "y": 7,
+            "d": 1
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 62,
+          "operation": {
+            "type": 2,
+            "x": 4,
+            "y": 0,
+            "d": 0
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 36,
+          "operation": {
+            "type": 2,
+            "x": 2,
+            "y": 3,
+            "d": 0
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 4,
+          "operation": {
+            "type": 2,
+            "x": 0,
+            "y": 1,
+            "d": 0
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 61,
+          "operation": {
+            "type": 2,
+            "x": 4,
+            "y": 4,
+            "d": 1
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 101,
+          "operation": {
+            "type": 2,
+            "x": 7,
+            "y": 5,
+            "d": 1
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 53,
+          "operation": {
+            "type": 2,
+            "x": 3,
+            "y": 7,
+            "d": 1
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 74,
+          "operation": {
+            "type": 2,
+            "x": 6,
+            "y": 1,
+            "d": 1
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 43,
+          "operation": {
+            "type": 2,
+            "x": 3,
+            "y": 2,
+            "d": 1
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 52,
+          "operation": {
+            "type": 2,
+            "x": 4,
+            "y": 6,
+            "d": 0
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 69,
+          "operation": {
+            "type": 2,
+            "x": 6,
+            "y": 5,
+            "d": 0
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 11,
+          "operation": {
+            "type": 2,
+            "x": 0,
+            "y": 5,
+            "d": 1
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 6,
+          "operation": {
+            "type": 2,
+            "x": 0,
+            "y": 3,
+            "d": 0
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 63,
+          "operation": {
+            "type": 2,
+            "x": 6,
+            "y": 6,
+            "d": 1
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 56,
+          "operation": {
+            "type": 2,
+            "x": 6,
+            "y": 0,
+            "d": 0
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 67,
+          "operation": {
+            "type": 2,
+            "x": 7,
+            "y": 3,
+            "d": 0
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 63,
+          "operation": {
+            "type": 2,
+            "x": 7,
+            "y": 2,
+            "d": 0
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 58,
+          "operation": {
+            "type": 2,
+            "x": 7,
+            "y": 0,
+            "d": 1
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 1,
+          "operation": {
+            "type": 1,
+            "x": 4,
+            "y": 7
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 0,
+          "operation": {
+            "type": 1,
+            "x": 3,
+            "y": 0
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 1,
+          "operation": {
+            "type": 1,
+            "x": 4,
+            "y": 8
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 0,
+          "operation": {
+            "type": 1,
+            "x": 2,
+            "y": 0
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 0,
+          "operation": {
+            "type": 1,
+            "x": 5,
+            "y": 8
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 1,
+          "operation": {
+            "type": 1,
+            "x": 3,
+            "y": 0
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 0,
+          "operation": {
+            "type": 1,
+            "x": 4,
+            "y": 8
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 0,
+          "operation": {
+            "type": 1,
+            "x": 2,
+            "y": 0
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 0,
+          "operation": {
+            "type": 1,
+            "x": 5,
+            "y": 8
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 1,
+          "operation": {
+            "type": 1,
+            "x": 3,
+            "y": 0
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 1,
+          "operation": {
+            "type": 1,
+            "x": 6,
+            "y": 8
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 1,
+          "operation": {
+            "type": 1,
+            "x": 4,
+            "y": 0
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 0,
+          "operation": {
+            "type": 1,
+            "x": 5,
+            "y": 8
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 0,
+          "operation": {
+            "type": 1,
+            "x": 3,
+            "y": 0
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 1,
+          "operation": {
+            "type": 1,
+            "x": 6,
+            "y": 8
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 1,
+          "operation": {
+            "type": 1,
+            "x": 4,
+            "y": 0
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 1,
+          "operation": {
+            "type": 1,
+            "x": 7,
+            "y": 8
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 1,
+          "operation": {
+            "type": 1,
+            "x": 5,
+            "y": 0
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 1,
+          "operation": {
+            "type": 1,
+            "x": 8,
+            "y": 8
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 0,
+          "operation": {
+            "type": 1,
+            "x": 4,
+            "y": 0
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 1,
+          "operation": {
+            "type": 1,
+            "x": 8,
+            "y": 7
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 1,
+          "operation": {
+            "type": 1,
+            "x": 5,
+            "y": 0
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 2,
+          "operation": {
+            "type": 1,
+            "x": 8,
+            "y": 8
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 1,
+          "operation": {
+            "type": 1,
+            "x": 6,
+            "y": 0
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 0,
+          "operation": {
+            "type": 1,
+            "x": 7,
+            "y": 8
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 0,
+          "operation": {
+            "type": 1,
+            "x": 5,
+            "y": 0
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 2,
+          "operation": {
+            "type": 1,
+            "x": 7,
+            "y": 7
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 0,
+          "operation": {
+            "type": 1,
+            "x": 4,
+            "y": 0
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 0,
+          "operation": {
+            "type": 1,
+            "x": 8,
+            "y": 7
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 1,
+          "operation": {
+            "type": 1,
+            "x": 5,
+            "y": 0
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 1,
+          "operation": {
+            "type": 1,
+            "x": 8,
+            "y": 6
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 0,
+          "operation": {
+            "type": 1,
+            "x": 4,
+            "y": 0
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 1,
+          "operation": {
+            "type": 1,
+            "x": 8,
+            "y": 7
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 1,
+          "operation": {
+            "type": 1,
+            "x": 5,
+            "y": 0
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 0,
+          "operation": {
+            "type": 1,
+            "x": 7,
+            "y": 7
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 1,
+          "operation": {
+            "type": 1,
+            "x": 6,
+            "y": 0
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 0,
+          "operation": {
+            "type": 1,
+            "x": 8,
+            "y": 7
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 1,
+          "operation": {
+            "type": 1,
+            "x": 7,
+            "y": 0
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 1,
+          "operation": {
+            "type": 1,
+            "x": 8,
+            "y": 6
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 0,
+          "operation": {
+            "type": 1,
+            "x": 6,
+            "y": 0
+          }
+        }
+      ],
+      "winnerId": [],
+      "winnerRound": [],
+      "isOver": false,
+      "winner": 0
+    },
+    "exactValue": 1,
+    "proofRank": 21,
+    "layout": "exact-layout-11"
+  },
+  {
+    "name": "fresh-endgame-4",
+    "domain": "exact-endgame",
+    "key": "76,10,0,0,0,-2055208624,17842176,540800,174096656",
+    "setup": [
+      137,
+      198,
+      202,
+      85,
+      107,
+      89,
+      181,
+      192,
+      204,
+      159,
+      164,
+      133,
+      127,
+      185,
+      105,
+      199,
+      87,
+      112,
+      104,
+      152,
+      77,
+      5,
+      76,
+      4,
+      67,
+      3,
+      68,
+      12,
+      67,
+      21,
+      68,
+      20,
+      77,
+      29,
+      78,
+      20,
+      77,
+      11,
+      78,
+      2,
+      77,
+      1,
+      78,
+      10,
+      77,
+      9,
+      76,
+      10
+    ],
+    "state": {
+      "firstId": 0,
+      "round": 25,
+      "waitFor": 0,
+      "playerPos": [
+        {
+          "x": 4,
+          "y": 8
+        },
+        {
+          "x": 1,
+          "y": 1
+        }
+      ],
+      "leftWalls": [
+        0,
+        0
+      ],
+      "walls": [
+        {
+          "x": 0,
+          "y": 7,
+          "d": 0,
+          "p": 0
+        },
+        {
+          "x": 5,
+          "y": 6,
+          "d": 1,
+          "p": 1
+        },
+        {
+          "x": 1,
+          "y": 7,
+          "d": 1,
+          "p": 0
+        },
+        {
+          "x": 4,
+          "y": 0,
+          "d": 0,
+          "p": 1
+        },
+        {
+          "x": 2,
+          "y": 3,
+          "d": 0,
+          "p": 0
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "d": 0,
+          "p": 1
+        },
+        {
+          "x": 4,
+          "y": 4,
+          "d": 1,
+          "p": 0
+        },
+        {
+          "x": 7,
+          "y": 5,
+          "d": 1,
+          "p": 1
+        },
+        {
+          "x": 3,
+          "y": 7,
+          "d": 1,
+          "p": 0
+        },
+        {
+          "x": 6,
+          "y": 1,
+          "d": 1,
+          "p": 1
+        },
+        {
+          "x": 3,
+          "y": 2,
+          "d": 1,
+          "p": 0
+        },
+        {
+          "x": 4,
+          "y": 6,
+          "d": 0,
+          "p": 1
+        },
+        {
+          "x": 6,
+          "y": 5,
+          "d": 0,
+          "p": 0
+        },
+        {
+          "x": 0,
+          "y": 5,
+          "d": 1,
+          "p": 1
+        },
+        {
+          "x": 0,
+          "y": 3,
+          "d": 0,
+          "p": 0
+        },
+        {
+          "x": 6,
+          "y": 6,
+          "d": 1,
+          "p": 1
+        },
+        {
+          "x": 6,
+          "y": 0,
+          "d": 0,
+          "p": 0
+        },
+        {
+          "x": 7,
+          "y": 3,
+          "d": 0,
+          "p": 1
+        },
+        {
+          "x": 7,
+          "y": 2,
+          "d": 0,
+          "p": 0
+        },
+        {
+          "x": 7,
+          "y": 0,
+          "d": 1,
+          "p": 1
+        }
+      ],
+      "lastOp": {
+        "playerId": 1,
+        "type": 1,
+        "lastPos": 9
+      },
+      "recordList": [
+        {
+          "playerId": 0,
+          "candidateId": 17,
+          "operation": {
+            "type": 2,
+            "x": 0,
+            "y": 7,
+            "d": 0
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 93,
+          "operation": {
+            "type": 2,
+            "x": 5,
+            "y": 6,
+            "d": 1
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 31,
+          "operation": {
+            "type": 2,
+            "x": 1,
+            "y": 7,
+            "d": 1
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 62,
+          "operation": {
+            "type": 2,
+            "x": 4,
+            "y": 0,
+            "d": 0
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 36,
+          "operation": {
+            "type": 2,
+            "x": 2,
+            "y": 3,
+            "d": 0
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 4,
+          "operation": {
+            "type": 2,
+            "x": 0,
+            "y": 1,
+            "d": 0
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 61,
+          "operation": {
+            "type": 2,
+            "x": 4,
+            "y": 4,
+            "d": 1
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 101,
+          "operation": {
+            "type": 2,
+            "x": 7,
+            "y": 5,
+            "d": 1
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 53,
+          "operation": {
+            "type": 2,
+            "x": 3,
+            "y": 7,
+            "d": 1
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 74,
+          "operation": {
+            "type": 2,
+            "x": 6,
+            "y": 1,
+            "d": 1
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 43,
+          "operation": {
+            "type": 2,
+            "x": 3,
+            "y": 2,
+            "d": 1
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 52,
+          "operation": {
+            "type": 2,
+            "x": 4,
+            "y": 6,
+            "d": 0
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 69,
+          "operation": {
+            "type": 2,
+            "x": 6,
+            "y": 5,
+            "d": 0
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 11,
+          "operation": {
+            "type": 2,
+            "x": 0,
+            "y": 5,
+            "d": 1
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 6,
+          "operation": {
+            "type": 2,
+            "x": 0,
+            "y": 3,
+            "d": 0
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 63,
+          "operation": {
+            "type": 2,
+            "x": 6,
+            "y": 6,
+            "d": 1
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 56,
+          "operation": {
+            "type": 2,
+            "x": 6,
+            "y": 0,
+            "d": 0
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 67,
+          "operation": {
+            "type": 2,
+            "x": 7,
+            "y": 3,
+            "d": 0
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 63,
+          "operation": {
+            "type": 2,
+            "x": 7,
+            "y": 2,
+            "d": 0
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 58,
+          "operation": {
+            "type": 2,
+            "x": 7,
+            "y": 0,
+            "d": 1
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 0,
+          "operation": {
+            "type": 1,
+            "x": 5,
+            "y": 8
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 1,
+          "operation": {
+            "type": 1,
+            "x": 5,
+            "y": 0
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 0,
+          "operation": {
+            "type": 1,
+            "x": 4,
+            "y": 8
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 0,
+          "operation": {
+            "type": 1,
+            "x": 4,
+            "y": 0
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 1,
+          "operation": {
+            "type": 1,
+            "x": 4,
+            "y": 7
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 0,
+          "operation": {
+            "type": 1,
+            "x": 3,
+            "y": 0
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 0,
+          "operation": {
+            "type": 1,
+            "x": 5,
+            "y": 7
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 2,
+          "operation": {
+            "type": 1,
+            "x": 3,
+            "y": 1
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 0,
+          "operation": {
+            "type": 1,
+            "x": 4,
+            "y": 7
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 3,
+          "operation": {
+            "type": 1,
+            "x": 3,
+            "y": 2
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 0,
+          "operation": {
+            "type": 1,
+            "x": 5,
+            "y": 7
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 0,
+          "operation": {
+            "type": 1,
+            "x": 2,
+            "y": 2
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 1,
+          "operation": {
+            "type": 1,
+            "x": 5,
+            "y": 8
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 3,
+          "operation": {
+            "type": 1,
+            "x": 2,
+            "y": 3
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 1,
+          "operation": {
+            "type": 1,
+            "x": 6,
+            "y": 8
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 2,
+          "operation": {
+            "type": 1,
+            "x": 2,
+            "y": 2
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 0,
+          "operation": {
+            "type": 1,
+            "x": 5,
+            "y": 8
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 2,
+          "operation": {
+            "type": 1,
+            "x": 2,
+            "y": 1
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 1,
+          "operation": {
+            "type": 1,
+            "x": 6,
+            "y": 8
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 2,
+          "operation": {
+            "type": 1,
+            "x": 2,
+            "y": 0
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 0,
+          "operation": {
+            "type": 1,
+            "x": 5,
+            "y": 8
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 0,
+          "operation": {
+            "type": 1,
+            "x": 1,
+            "y": 0
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 1,
+          "operation": {
+            "type": 1,
+            "x": 6,
+            "y": 8
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 2,
+          "operation": {
+            "type": 1,
+            "x": 1,
+            "y": 1
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 0,
+          "operation": {
+            "type": 1,
+            "x": 5,
+            "y": 8
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 0,
+          "operation": {
+            "type": 1,
+            "x": 0,
+            "y": 1
+          }
+        },
+        {
+          "playerId": 0,
+          "candidateId": 0,
+          "operation": {
+            "type": 1,
+            "x": 4,
+            "y": 8
+          }
+        },
+        {
+          "playerId": 1,
+          "candidateId": 0,
+          "operation": {
+            "type": 1,
+            "x": 1,
+            "y": 1
+          }
+        }
+      ],
+      "winnerId": [],
+      "winnerRound": [],
+      "isOver": false,
+      "winner": 0
+    },
+    "exactValue": -1,
+    "proofRank": 22,
+    "layout": "exact-layout-11"
+  }
+]

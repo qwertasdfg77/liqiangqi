@@ -1,0 +1,14 @@
+changelog:
+  exclude:
+    labels: [duplicate, invalid, wontfix]
+  categories:
+    - title: AI、棋力与性能
+      labels: [ai, performance]
+    - title: 玩法与规则
+      labels: [rules]
+    - title: 便携启动与修复
+      labels: [portable, bug]
+    - title: 文档与验证
+      labels: [documentation, tests]
+    - title: 其他改进
+      labels: ['*']

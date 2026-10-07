@@ -1,0 +1,11 @@
+* text=auto
+launcher/PortableLauncher.cs -text
+launcher/使用说明.txt -text
+third-party/** -text
+*.md text eol=lf
+*.yml text eol=lf
+*.cjs text eol=lf
+app/** -text
+# Keep the frozen release stylesheet and third-party license text verbatim.
+app/style.css -whitespace
+third-party/** -whitespace
