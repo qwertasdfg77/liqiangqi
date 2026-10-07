@@ -28,6 +28,12 @@ function visit(dir,prefix='') {
   }
 }
 visit(stage);
+// The historical release used the machine's collation order. Freeze its exact
+// manifest order instead of relying on localeCompare on another Windows host.
+const expectedPayload=require('../release/v1.8.0-payload.json');
+const order=new Map(expectedPayload.files.map((file,index)=>[file.path,index]));
+files.sort((a,b)=>order.get(a.path)-order.get(b.path));
+assert.deepEqual(files,expectedPayload.files,'Payload files must match the stable release exactly');
 const manifest=files.map(f=>`${f.path}|${f.sha256}|${f.size}`).join('\n')+'\n', id=sha(Buffer.from(manifest)).slice(0,20);
 assert.equal(id,release.payloadId,'Payload changed: update version metadata deliberately before creating a new release');
 fs.writeFileSync(path.join(build,'manifest.txt'),manifest);

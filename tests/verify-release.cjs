@@ -3,6 +3,7 @@ const root=path.resolve(__dirname,'..'), release=require('../release/v1.8.0.json
 const sha=data=>crypto.createHash('sha256').update(data).digest('hex');
 assert.equal(require('../package.json').version,release.version);assert.equal(release.tag,'v'+release.version);
 assert.equal(payload.id,release.payloadId);assert.equal(payload.runtime,release.runtime);assert.equal(release.sourceFiles.length,15);
+assert.equal(sha(Buffer.from(payload.files.map(f=>`${f.path}|${f.sha256}|${f.size}`).join('\n')+'\n')).slice(0,20),release.payloadId,'Recorded canonical payload order');
 assert.deepEqual(fs.readdirSync(path.join(root,'app')).sort(),release.sourceFiles.map(f=>path.basename(f.path)).sort());
 for(const file of release.sourceFiles) {
   const data=fs.readFileSync(path.join(root,file.path));assert.equal(sha(data),file.sha256,file.path);
